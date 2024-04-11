@@ -1,9 +1,10 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 9px;
 }
 header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    background-color: orange;
 }
 nav{
 
