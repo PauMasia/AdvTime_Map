@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+    <title>TLabs</title>
+</head>
+<body>
+    <!--Patatin :D-->
+    <header>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/naranjo1.jpg" alt="Imagen 1"></div>
+                <div class="swiper-slide"><img src="img/naranjo2.jpg" alt="Imagen 2"></div>
+                <div class="swiper-slide"><img src="img/naranjo3.jpg" alt="Imagen 3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    
+    </header>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+    <nav>
+        <a href="nada">Principal</a>
+    </nav>
+</body>
+</html>
