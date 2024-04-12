@@ -1,4 +1,5 @@
 body{
+    background-color:#ede9dd;
     font-family: 'Times New Roman', Times, serif;
     font-size: 9px;
 }
@@ -11,4 +12,25 @@ nav{
 }
 footer{
 
+}
+.sup-img {
+    
+    position: relative;
+    /*
+        width: 2115px; 
+        height: 1858px;
+    */
+    width: 1158px; 
+    height: 929px;
+}
+.sup-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.luz {
+    background-color: yellow;
 }
