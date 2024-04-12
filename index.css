@@ -15,14 +15,22 @@ footer{
 }
 .sup-img {
     
-    position: relative;
     /*
         width: 2115px; 
         height: 1858px;
     */
     width: 1158px; 
     height: 929px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+#desierto:hover #desierto_img {  /* Target hover on #desierto */
+    transform: scale(1.1);  /* Increase image size by 10% */
+    box-shadow: 0 0 5px yellow;  /* Add yellow glow effect */
+}
+
 .sup-img img {
     position: absolute;
     top: 0;
@@ -33,4 +41,8 @@ footer{
 
 .luz {
     background-color: yellow;
+}
+.l:hover{
+    color:aqua;
+   
 }
