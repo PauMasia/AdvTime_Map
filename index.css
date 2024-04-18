@@ -1,3 +1,4 @@
+
 body{
     background-color:#ede9dd;
     font-family: 'Times New Roman', Times, serif;
@@ -16,11 +17,12 @@ footer{
 .sup-img {
     
     /*
-        width: 2115px; 
-        height: 1858px;
+        
+        width: 1158px; 
+    height: 929px
     */
-    width: 1158px; 
-    height: 929px;
+    width: 2115px; 
+        height: 1858px;
     position: relative;
     top: 0;
     left: 0;
@@ -29,6 +31,7 @@ footer{
 #desierto:hover #desierto_img {  /* Target hover on #desierto */
     transform: scale(1.1);  /* Increase image size by 10% */
     box-shadow: 0 0 5px yellow;  /* Add yellow glow effect */
+    cursor: pointer;
 }
 
 .sup-img img {
@@ -45,4 +48,14 @@ footer{
 .l:hover{
     color:aqua;
    
+}
+
+#mapa{
+    
+    position: absolute;
+    text-align: left;
+}
+#guia{
+    text-align: right;
+    margin-right: auto;
 }
