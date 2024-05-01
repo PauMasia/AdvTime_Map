@@ -7,9 +7,16 @@
     }
 }
 body {
-    background-color: rgb(87, 28, 28)
-        /*#ede9dd*/
-    ;
+    background-color: rgb(87, 28, 28);
+        /**/
+    font-family: Adventure Time;
+}
+@font-face {
+    font-family: Adventure Time;
+    src: url(fonts/AdvTime-2editotf.otf) format(opentype);
+}
+h1{
+    font-weight:lighter;
 }
 
 #map {
@@ -31,15 +38,20 @@ body {
     justify-content: space-around;
     display:flex;
     align-items:center;
-    font-size: 10px;
-    
-    
+    font-size: 8px;
+    text-align: center;
+    user-select: none;
 }
 
+#div_zones #slots:hover {
+    /*cambiar por una flecha que rota tal vez?*/
+    background-color: rgb(144, 211, 43);
+    text-decoration: underline;
+}
 /*there are 23 zones in the map*/
 #div_zones #slots:nth-child(1) {
     border: 3px solid red;
-    flex-basis: 45%;
+    flex-basis: 45%;    
     margin-bottom: 0px;
     margin-top: 0px;
     
@@ -48,6 +60,7 @@ body {
 #div_zones #slots:nth-child(2) {
     border: 3px solid red;
     flex-basis: 45%;
+    
     margin-bottom: 0px;
     margin-top: 0px;
 }

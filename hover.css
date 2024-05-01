@@ -1,0 +1,8 @@
+/*No añadido*/
+.hover-zone{
+}
+.hover-zone:hover{
+}
+.hover-zone:nth-of-type(1):hover{
+    color: aqua;
+}
