@@ -8,6 +8,7 @@
     }
     #h1_message{
         font-size: 24px;
+        user-select: none;
     }
     #close{
         position: relative;

@@ -19,4 +19,4 @@
 //     });
 // }
 // });
-window.onload= document.getElementById('backOfMessage').style.display= 'inline';
+//window.onload= document.getElementById('backOfMessage').style.display= 'inline';
