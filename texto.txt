@@ -1,0 +1,11 @@
+Falta:
+-Comentarios
+-Hover de las zonas
+-Contenido
+-Imagenes
+-Cambiar colores
+
+***************
+-Usuarios?
+-Onreload message.display ''none talvez
+-Tal vez cambiar el orden de la lista en base al orden en que s eponen en 2 lineas

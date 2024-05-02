@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head onload=>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>English Project</title>
@@ -10,44 +10,60 @@
 </head>
 
 <body>
+    <div id="backOfMessage">
+        <div id="messageNoResponsive">
+            <h1 id="h1_message">This project is made for a single person, I made it with pure <a id="HTML">HTML</a>,<a id="JS">JS</a> and <a id="CSS"> CSS</a>, I wish you like it, it took me more than X hours.Texto texto texto texto texto
+            <br>
+            <button onclick="document.getElementById('backOfMessage').style.display='none'"
+            id="buttonCloseMessage" >Close</button>
+            <!-- <img src="" id="imgMessage"> -->
+            </h1>
+        </div>
+    </div>
 
     <div id="div_map">
         <img src="images/mapOOO.jpg" alt="Map of Ooo" id="map">
-        
+        <img src="images/cloudForest.png" alt="cloud_forest" id="cloud_forest_img">
+        <img src="images/theUnknownLands.png" alt="uknown_lands_img">
+        <!--Faltan muchas, orden de abajo-->
+        <img src="images/theShineyIsles.png">
     </div>
     
     <div id="div_zones">
         
-        <h1 id="slots" class="hover-zone"*> Cloud Forest</h1>
-        <h1 id="slots" class="hover-zone"> The Sea of Something </h1>
-        <h1 id="slots" class="hover-zone"> The Uknown Lands</h1>
-        <h1 id="slots" class="hover-zone"> The Skiney Isles</h1>
-        <h1 id="slots" class="hover-zone"> Ice Kingdom</h1>
-        <h1 id="slots" class="hover-zone"> The Caves</h1>
-        <h1 id="slots" class="hover-zone"> Rock Candy Mountains</h1>
-        <h1 id="slots" class="hover-zone"> Mountain Kingdom</h1>
-        <h1 id="slots" class="hover-zone"> Candy Kingdom</h1>
-        <h1 id="slots" class="hover-zone"> Grass Lands</h1>
-        <h1 id="slots" class="hover-zone"> Haunted Swamp</h1>
-        <h1 id="slots" class="hover-zone"> Spooky Forest</h1>
-        <h1 id="slots" class="hover-zone"> Hole Near the Center of the World</h1>
-        <h1 id="slots" class="hover-zone"> Kingdom of Fire</h1>
-        <h1 id="slots" class="hover-zone"> Lost Cliffs</h1>
-        <h1 id="slots" class="hover-zone"> Desert Lands</h1>
-        <h1 id="slots" class="hover-zone"> The Floating Gems</h1>
-        <h1 id="slots" class="hover-zone"> Isle of Steam</h1>
-        <h1 id="slots" class="hover-zone"> Bad Lands</h1>
-        <h1 id="slots" class="hover-zone"> Chicken Blood Cove</h1>
-        <h1 id="slots" class="hover-zone"> Sea of Sure Death</h1>
-        <h1 id="slots" class="hover-zone"> Whirlpool of Sharks</h1>
-        <h1 id="slots" class="hover-zone"> The Squid Ink Sea</h1>
+        <h1 class="slots" id="cloud_forest" > Cloud Forest</h1>
+        <h1 class="slots" id="uknown_lands" > The Uknown Lands</h1>
+        <h1 class="slots" id="shiney_isles" > The Shiney Isles</h1>
+        <h1 class="slots" id="ice_kingdom" > Ice Kingdom</h1>
+        <h1 class="slots" id="rock_candy_mountains" > Rock Candy Mountains</h1>
+        <h1 class="slots" id="sea_of_something" > The Sea of Something</h1>
+        <h1 class="slots" id="mountain_kingdom" > Mountain Kingdom</h1>
+        <h1 class="slots" id="caves" > The Caves</h1>
+        <h1 class="slots" id="candy_kingdom" > Candy Kingdom</h1>
+        <h1 class="slots" id="grass_lands" > Grass Lands</h1>
+        <h1 class="slots" id="haunted_swamp" > Haunted Swamp</h1>
+        <h1 class="slots" id="spooky_forest" > Spooky Forest</h1>
+        <h1 class="slots" id="squid_ink_sea" > The Squid Ink Sea</h1>
+        <h1 class="slots" id="kingdom_of_fire" > Kingdom of Fire</h1>
+        <h1 class="slots" id="lost_cliffs" > Lost Cliffs</h1>
+        <h1 class="slots" id="desert_lands" > Desert Lands</h1>
+        <h1 class="slots" id="floating_gems" > The Floating Gems</h1>
+        <h1 class="slots" id="isle_of_steam" > Isle of Steam</h1>
+        <h1 class="slots" id="bad_lands" > Bad Lands</h1>
+        <h1 class="slots" id="chicken_blood_cove" > Chicken Blood Cove</h1>
+        <h1 class="slots" id="sea_of_sure_death" > Sea of Sure Death</h1>
+        <h1 class="slots" id="whirlpool_of_sharks" > Whirlpool of Sharks</h1>
+        <!--Experimental, factible-->
+        <h1 class="slots" id="hole_near_the_center_of_the_world" onclick="document.getElementById('overlay').style.display= 'inline'"> Hole Near the Center<br>of the World</h1>
     </div>
-    <!--Menu experimental-->>
-    <div class="overlay">
+    <!--Menu experimental, factible-->
+    <div id="overlay">
         <div class="info">
-            <p>asdasdasdasdasdasdasdasdadasdad</p>
+            <img src="images/14034319.png" alt="Close"  id="close">
+            <p>hola hola</p>
+            <h1>adios <h1>
+
         </div>
-        <img src="images/14034319.png" alt="Close" class="close-button">
     </div>
 </body>
 
