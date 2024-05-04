@@ -38,9 +38,16 @@ h1{
 }
 
 #div_map {
-    position:absolute;
-    
+    position:relative;
 }
+.img_class{
+    position: absolute; 
+    height: 95vh;
+}
+.img_class:nth-child(1n+2) {
+    filter: saturate(250%);
+}
+
 
 #div_zones {
     border: 1ch black;
