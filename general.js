@@ -6,12 +6,13 @@
 
 // var id_zone = onclick.document.addEventListener
 
-// //
+
 // var slotsElements = document.getElementsByClassName('slots');
 // for (var i = 0; i < slotsElements.length; i++) {
 //     slotsElements[i].addEventListener('click', function() {
 //         // Setting the display style property of an element with id 'overlay' to 'inline'
 //         document.getElementById('overlay').style.display = 'inline';
+//         document.getElementsByClassName('info_'+)
 //     });
 // }
 
@@ -28,3 +29,10 @@ var id_zone= document.querySelectorAll('.slots');
 id_zone.forEach(function(select_zone){
     select_zone.addEventListener('click',select_click);
 });
+
+
+//---------------------------Menus test-----------------------------
+function menu_open(menu){
+    document.getElementsByClassName('menu_'+id_zone).s
+
+}

@@ -251,6 +251,7 @@ h1{
     z-index: 1; /* Ensure overlay is above other content */
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 .info {
     background-color: #0c0a0a; /* Background color for information */
