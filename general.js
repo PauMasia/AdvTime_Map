@@ -16,6 +16,22 @@
 //     });
 // }
 
+// Parte funcional de los hover
+let name_menu= "cloud_forest";
+function select_click(singleSlot){
+    if(singleSlot.target.classList.contains('slots') ){
+        document.getElementById (name_menu).style.filter='';
+        document.getElementById (name_menu).style.zIndex='-20';
+        name_menu= singleSlot.target.id+"_img";
+        document.getElementById (name_menu).style.filter='drop-shadow(0px 0px 10px rgb(225, 0, 255)) saturate(250%)';
+        document.getElementById (name_menu).style.zIndex='20';
+    }
+}
+let id_zone= document.querySelectorAll('.slots');
+id_zone.forEach(function(select_zone){
+    select_zone.addEventListener('mouseover',select_click);
+    document.getElementById (name_menu).style.filter='';
+});
 //falta testear, pon un id para una variable que vaya a existir para testear, name_menu+ '_info' para crear los menus de info de cada zona
 var name_menu= null;
 function select_click(singleSlot){
