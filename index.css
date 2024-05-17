@@ -10,10 +10,11 @@
         font-size: 24px;
         user-select: none;
     }
+    /*No se a que close hace referncia, borrar en un futuro*/
     #close{
         position: relative;
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         margin-left: 40vw;
         
     }
@@ -44,10 +45,6 @@ h1{
     position: absolute; 
     height: 95vh;
 }
-.img_class:nth-child(1n+2) {
-    filter: saturate(250%);
-}
-
 
 #div_zones {
     border: 1ch black;
@@ -256,15 +253,15 @@ h1{
 }
 
 /*Experimental, factible*/
-#overlay {
+#overlay_menu {
     display:none;
     position: absolute;
     top: 0;
     left: 0;
     width: 58vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black background */
-    z-index: 1; /* Ensure overlay is above other content */
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1; 
     justify-content: center;
     align-items: center;
     overflow: auto;
@@ -322,6 +319,10 @@ h1{
     text-align: center;
     
 }
+.info_menu{
+    display: none;
+}
+
 /* #imgMessage{
     width: 100%;
     height: 100%;
