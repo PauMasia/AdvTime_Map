@@ -33,22 +33,22 @@ id_zone.forEach(function(select_zone){
     document.getElementById (name_menu).style.filter='';
 });
 //falta testear, pon un id para una variable que vaya a existir para testear, name_menu+ '_info' para crear los menus de info de cada zona
-var name_menu= null;
-function select_click(singleSlot){
-    if(singleSlot.target.classList.contains('slots')){
-        name_menu= singleSlot.target.id;
-    }
-    document.getElementById (name_menu)
-}
+// var name_menu= null;
+// function select_click(singleSlot){
+//     if(singleSlot.target.classList.contains('slots')){
+//         name_menu= singleSlot.target.id;
+//     }
+//     document.getElementById (name_menu)
+// }
 
-var id_zone= document.querySelectorAll('.slots');
-id_zone.forEach(function(select_zone){
-    select_zone.addEventListener('click',select_click);
-});
+// var id_zone= document.querySelectorAll('.slots');
+// id_zone.forEach(function(select_zone){
+//     select_zone.addEventListener('click',select_click);
+// });
 
 
-//---------------------------Menus test-----------------------------
-function menu_open(menu){
-    document.getElementsByClassName('menu_'+id_zone).s
+// //---------------------------Menus test-----------------------------
+// function menu_open(menu){
+//     document.getElementsByClassName('menu_'+id_zone).s
 
-}
+// }
