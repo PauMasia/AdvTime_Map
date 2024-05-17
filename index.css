@@ -64,7 +64,23 @@ h1{
     text-align: center;
     user-select:none;
 }
-
+.div_comments{
+    border: 1ch black;
+    margin-top: 50vh;
+    width: 40vw;
+    float: right;
+    position: fixed;
+    right: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display:flex;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    height:50vh;
+    overflow:auto;
+    z-index: -1;
+}
 #HTML{color: #f1672c;}
 #CSS{color: #30a8dc;}
 #JS{color: #efc025;}
