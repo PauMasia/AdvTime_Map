@@ -57,3 +57,4 @@ function closeInfo() {
   document.getElementsByClassName("info_menu")[abierto].style.display = "none";
 }
 document.getElementById("close").addEventListener("click", closeInfo);
+  
