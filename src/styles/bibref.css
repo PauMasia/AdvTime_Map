@@ -1,0 +1,55 @@
+@media (max-width: 900px) {
+  body {
+    font-size: 4px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+}
+@font-face {
+    font-family: Credits;
+    src: url(/src/static/fonts/Thunderman.ttf);
+}
+body{
+    overflow: hidden;
+    font-family: Credits;
+}
+#index {
+  position: absolute;
+  color: green;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+.infoSection{
+  margin-top: 5vh
+  ;
+}
+#con {
+  margin-left: 50vw;
+  width: 50vw;
+  position: absolute;
+}
+#bib {
+  width: 50vw;
+  margin-right: 50vw;
+  position: absolute;
+}
+div h1 {
+  text-align: center;
+}
+hr {
+  height: 100vh;
+  width: 0.5vw;
+  border-width: 0;
+  color: #000;
+  margin-left: 49.75vw;
+  background-color: #000;
+  position: absolute;
+}
+li{
+    margin-left: 5vw;
+    font-size: 20px;    
+}
+

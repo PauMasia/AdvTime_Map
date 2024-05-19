@@ -4,6 +4,7 @@
 - Contenido (50%)
 - Imagenes (Done)
 - Cambiar colores 
+- Añadir favicon aleatorio 
 
 # ******* Extras *******
 - Usuarios?  (solventado)
