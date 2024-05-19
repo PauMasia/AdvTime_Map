@@ -15,7 +15,7 @@
 // }
 
 // Parte funcional de los hover
-let name_menu = "cloud_forest"; // no modificar
+let name_menu= "needed"; // no modificar
 function select_click(singleSlot) {
   if (singleSlot.target.classList.contains("slots")) {
     document.getElementById(name_menu).style.filter = "";
