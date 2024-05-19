@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: Credits;
-    src: url(/src/static/fonts/Thunderman.ttf);
+    src: url(src/static/fonts/Thunderman.ttf);
 }
 body{
     overflow: hidden;
