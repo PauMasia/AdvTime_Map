@@ -39,7 +39,7 @@ function clickR(singleSlot) {
   if (singleSlot.target.classList.contains("slots")) {
     document.getElementById(name_menu).style.filter = "";
     document.getElementById(name_menu).style.zIndex = "-20";
-    document.getElementById("div_map").style.display = "none";
+    document.getElementById("div_map").style.visibility = "hidden";
     document.getElementById("overlay_menu").style.display = "inline";
     document.getElementsByClassName("info_menu")[index_click].style.display =
       "inline";
@@ -52,7 +52,7 @@ id_zone.forEach(function (select_zone) {
   select_zone.addEventListener("click", clickR);
 });
 function closeInfo() {
-  document.getElementById("div_map").style.display = "inline";
+  document.getElementById("div_map").style.visibility = "visible";
   document.getElementById("overlay_menu").style.display = "none";
   document.getElementsByClassName("info_menu")[abierto].style.display = "none";
 }
