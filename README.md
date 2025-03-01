@@ -1,4 +1,4 @@
-# Forbidden project for now on(01/03/2025)
+# Abandoned project for now on(01/03/2025)
 # Falta:
 - Comentarios (Done) 
 - Hover de las zonas (Done)
